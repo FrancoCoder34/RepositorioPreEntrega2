@@ -1,0 +1,21 @@
+body{
+    background-color: #8c8c8c;
+}
+
+.navbar{
+    background-color: #3c3c3c;
+    font-size: 30px;
+    font-style: none;
+}
+
+.nav-link:hover{
+    color: aliceblue;
+}
+
+.carousel {
+    max-width: 500px;
+    width: 100%;
+    align-items: center
+    ;
+}
+
