@@ -1,5 +1,6 @@
 body{
     background-color: #8c8c8c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navbar{
@@ -9,7 +10,7 @@ body{
 }
 
 .nav-link:hover{
-    color: aliceblue;
+    color: goldenrod;
 }
 
 .carousel {
