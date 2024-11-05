@@ -38,18 +38,20 @@ header{
 }
 
 .grid-container{
-    width: 70%;
-    padding: 30px;
-    margin: 0 auto;
     display: grid;
-    grid-template-columns: 25% 25%;
-    grid-template-rows: auto;
+    width: 70%;
+    grid-template-columns: repeat(4, 1fr);  
+    grid-template-rows: repeat(2, 1fr);    
+    gap: 20px;                              
+    justify-items: center;                  
+    
 }
 
 .caja{
-    height: 100px;
-    width: 100px;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 @media (min-width: 500px) and (max-width: 900px) {
