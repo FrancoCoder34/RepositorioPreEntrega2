@@ -14,7 +14,7 @@ header{
 }
 
 .nav-link:hover{
-    color: aqua;
+    color: #004aad;
 }
 
 .carousel {
@@ -32,9 +32,13 @@ header{
 .titulo{
     padding: 30px;
 }
-
-.p-3{
+h1 span{
     color: #004aad;
+}
+
+p{
+    text-align: center;
+    font-size: 40px;
 }
 
 .grid-container{
@@ -44,17 +48,30 @@ header{
     grid-template-rows: repeat(2, 1fr);    
     gap: 20px;                              
     justify-items: center;                  
-    
+
 }
 
-.caja{
+.caja {
     display: flex;
+    text-align: center;
+    border: none;
+    font-weight: 600;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
-@media (min-width: 500px) and (max-width: 900px) {
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.card{
+    box-shadow: rgba(38, 78, 118, .1) 0 6px 20px;
+    border: none;
+    border-radius: 100px;
+}
+
+@media (min-width: 600px) and (max-width: 900px){
     body{
         background-color: white;
     }
@@ -68,4 +85,12 @@ header{
     .der{
         display: none;
     }
+
+    .grid-container{
+        display: grid;
+        width: 70%;
+        grid-template-columns: repeat(2, 1fr);  
+        grid-template-rows: repeat(1, 1fr);    
+        gap: 20px;                              
+        justify-items: center;
 }
