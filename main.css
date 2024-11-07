@@ -47,7 +47,7 @@ p{
     grid-template-columns: repeat(4, 1fr);  
     grid-template-rows: repeat(2, 1fr);    
     gap: 20px;                              
-    justify-items: center;                  
+    margin: 0 auto;                
 
 }
 
@@ -92,28 +92,24 @@ main{
     .grid-container{
         display: grid;
         width: 70%;
-        grid-template-columns: repeat(1, 0.5fr);  
+        grid-template-columns: repeat(2, 0.5fr);  
         grid-template-rows: repeat(1, 0.5fr);    
         gap: 20px;                              
         justify-items: center;
         align-items: center;
         font-size: 15px;
-        padding-left: 40%;
+        margin: 0 auto;
     }
 
-    {
-     
-    }
-
-    .card{
-
-    }
 
     p{
         font-size: small;
+        margin: 0 auto;
+        padding-bottom: 10px;
     }
 
     h1{
         font-size: larger;
+        margin: 0 auto;
     }
 }
