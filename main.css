@@ -74,16 +74,33 @@ main{
     justify-items: center;
 }
 
-@media (min-width: 0px) and (max-width: 480px){
-    body{
-        background-color: white;
-    }
+main.flex-container {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+    margin: 20px; 
+}
 
-    .d-flex {
-        display: flex !important;
-        flex-direction: column;
-        align-items: center;
-    }
+.muscle-container {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start; 
+    gap: 15px; 
+}
+
+.foto {
+    max-width: 25%;
+    height: auto; 
+    border-radius: 30px;
+}
+
+.muscle-container p {
+    margin: 0; 
+    font-size: 30px;
+    text-align:start;
+}
+
+@media (min-width: 0px) and (max-width: 480px){
 
     .der{
         display: none;
@@ -95,21 +112,48 @@ main{
         grid-template-columns: repeat(2, 0.5fr);  
         grid-template-rows: repeat(1, 0.5fr);    
         gap: 20px;                              
-        justify-items: center;
-        align-items: center;
         font-size: 15px;
         margin: 0 auto;
     }
 
+    .card{
+        border-radius: 200px;
+    }
+
 
     p{
-        font-size: small;
         margin: 0 auto;
         padding-bottom: 10px;
+        font-size: medium;
     }
 
     h1{
         font-size: larger;
         margin: 0 auto;
     }
+
+    main {
+        margin: 10px;
+        gap: 15px;
+    }
+
+    .muscle-container {
+        flex-direction: column; 
+        align-items: center; 
+        gap: 10px; 
+    }
+
+    .foto {
+        width: 100%;
+        max-width: 300px; 
+        height: auto;
+    }
+
+    p {
+        font-style: none;
+        font-size: 1em;
+        max-width: 100%; 
+    }
 }
+
+
