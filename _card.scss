@@ -1,0 +1,33 @@
+.card {
+    width: 300px;  
+    height: 400px;  
+    box-shadow: rgba(38, 78, 118, 0.1) 0 6px 20px;  
+    border: none;
+    border-radius: 10px;  
+    overflow: hidden;  
+    transition: transform 0.3s ease, box-shadow 0.3s ease;  
+
+    &:hover {
+        transform: scale(1.05);  
+        box-shadow: rgba(38, 78, 118, 0.3) 0 12px 30px;  
+    }
+}
+
+.caja {
+    display: flex;
+    text-align: center;
+    border: none;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 25;
+    margin-bottom: 20px;
+}
