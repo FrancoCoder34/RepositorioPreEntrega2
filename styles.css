@@ -133,8 +133,8 @@ main.flex-container {
 }
 
 .muscle-container p {
-  font-size: 30px;
-  text-align: start;
+  font-size: 35px;
+  text-align: center;
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
